@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            <span className="purple" style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Know Who I Am</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Hi Everyone, I am <span className="purple">Purushottam Digambar Fugate</span> from <span className="purple">Pune, Maharashtra.</span>
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Currently, I work as a <span className="purple">Java Backend Developer</span> at <span className="purple">Teople Technologies.</span>
+            <br />
+            I hold a Bachelor's degree in Computer Science from <span className="purple">Marathwada Mitra Mandal Institute Of Technology</span>, graduating with a CGPA of 8.25.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Beyond coding, here are some of the things I am passionate about:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Badminton 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Meditation & Fitness
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling & Photography
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)", fontStyle: "italic", fontWeight: "bold" }}>
+          "Transforming ideas into impactful realities!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Purushottam Fugate</footer>
         </blockquote>
       </Card.Body>
     </Card>
